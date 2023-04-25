@@ -79,6 +79,11 @@ margin-top: 80px;
   line-height: 2;
   }
 
+  .list h1{
+    font-weight: 600;
+    line-height: 5;
+    }
+
   .read-btn{
     background-color: #1641ff;
     padding: 20px 25px;
@@ -106,6 +111,11 @@ margin-top: 80px;
     color: #1641ff;
     font-weight: 400;
   }
+
+  .about-text span{
+    color: #1641ff;
+  }
+
   .machine{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -143,4 +153,40 @@ margin-top: 80px;
   }
   .middle .btn{
     width: 30%;
+  }
+
+  .inner img{
+    transition: all 1.5s ease;
+  }
+  .inner:hover img{
+    transform: scale(1.5);
+  }
+
+  .inner{
+    overflow: hidden;
+  }
+
+  .main{
+    font-weight: 600;
+    font-size: 2rem;
+
+  }
+
+  .icon{
+    display: flex;
+    justify-content: center;
+  }
+
+  .loader{
+    position: relative;
+    margin-top: -5rem;
+  }
+
+  .drill{
+    position: relative;
+    margin-top: -5rem;
+  }
+
+  .energie{
+    margin-top: 5rem;
   }
