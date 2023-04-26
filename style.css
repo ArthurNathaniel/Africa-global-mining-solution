@@ -71,6 +71,11 @@ margin-top: 80px;
     /* margin-top: 50px; */
   }
 
+  .reman{
+    padding: 0 5%;
+    padding-block: 50px;
+  }
+
   .about-home img{
     border-radius: 10px;
   }
@@ -190,3 +195,7 @@ margin-top: 80px;
   .energie{
     margin-top: 5rem;
   }
+
+.m-text h6{
+  font-weight: 600;
+}
